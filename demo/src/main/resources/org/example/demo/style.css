@@ -1,0 +1,45 @@
+/* Estilos para o título */
+.title-label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos dos botões */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Caixa de texto */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+}
+
+.text-area {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-font-family: 'Arial', sans-serif;
+}
+
+/* Alerta */
+.alert {
+    -fx-font-size: 14px;
+}
