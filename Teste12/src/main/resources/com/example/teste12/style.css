@@ -1,0 +1,26 @@
+/* style.css */
+
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: Arial, sans-serif;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-padding: 10px;
+}
+
+.button {
+    -fx-padding: 10px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
