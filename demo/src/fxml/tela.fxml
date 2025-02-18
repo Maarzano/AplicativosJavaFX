@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+    <children>
+        <Label text="Nota 1:" layoutX="50" layoutY="50"/>
+        <TextField fx:id="nota1Field" layoutX="120" layoutY="50" prefWidth="100"/>
+
+        <Label text="Nota 2:" layoutX="50" layoutY="100"/>
+        <TextField fx:id="nota2Field" layoutX="120" layoutY="100" prefWidth="100"/>
+
+        <Label text="Nota 3:" layoutX="50" layoutY="150"/>
+        <TextField fx:id="nota3Field" layoutX="120" layoutY="150" prefWidth="100"/>
+
+        <Button text="Verificar Aprovação" layoutX="50" layoutY="200" onAction="#verificarAprovacao"/>
+    </children>
+</AnchorPane>
