@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<?import java.net.URL?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.teste12.HelloController">
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Digite as 3 notas do aluno:"/>
+
+    <!-- Campos de texto para inserir as 3 notas -->
+    <TextField fx:id="nota1Field" promptText="Nota 1" />
+    <TextField fx:id="nota2Field" promptText="Nota 2" />
+    <TextField fx:id="nota3Field" promptText="Nota 3" />
+
+    <!-- Botão para verificar a média e o status -->
+    <Button text="Verificar Aprovação" onAction="#onVerificarButtonClick"/>
+
+    <!-- Label que exibirá o resultado -->
+    <Label fx:id="resultadoLabel"/>
+</VBox>
