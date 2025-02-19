@@ -10,10 +10,11 @@ public class LoginApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        // Carrega o arquivo FXML corretamente
         Parent root = FXMLLoader.load(getClass().getResource("/com/sistema/login/Tela.fxml"));
-        
-        Scene scene = new Scene(root, 300, 200);
+
+        Scene scene = new Scene(root, 300, 300);
+        scene.getStylesheets().add(getClass().getResource("/com/sistema/login/styles.css").toExternalForm());
+
         primaryStage.setTitle("Tela de Login");
         primaryStage.setScene(scene);
         primaryStage.show();
