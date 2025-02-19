@@ -35,9 +35,9 @@ public class HelloController {
                     double media = (nota1 + nota2 + nota3) / 3;
 
                     if (media >= 6.0) {
-                        resultadoLabel.setText("Aprovado! Média: " + media);
+                        resultadoLabel.setText("Aprovado! Média: " + String.format("%.1f" , media));
                     } else {
-                        resultadoLabel.setText("Reprovado! Média: " + media);
+                        resultadoLabel.setText("Reprovado! Média: " + String.format("%.1f" , media));
                     }
                 } else {
                     resultadoLabel.setText("Não pode nota maior que 10");
