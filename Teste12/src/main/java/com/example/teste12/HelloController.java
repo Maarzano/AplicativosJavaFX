@@ -20,32 +20,35 @@ public class HelloController {
 
     @FXML
     protected void onVerificarButtonClick() {
-        double nota1 = 0;
-        double nota2 = 0;
-        double nota3 = 0;
         try {
-            if (Double.parseDouble(nota1Field.getText()) >= 0 && Double.parseDouble(nota2Field.getText()) >= 0 && Double.parseDouble(nota1Field.getText()) >= 0) {
-                if (Double.parseDouble(nota1Field.getText()) <= 10 && Double.parseDouble(nota2Field.getText()) <= 10 && Double.parseDouble(nota1Field.getText()) <= 10) {
+            double nota1 = parseNota(nota1Field.getText());
+            double nota2 = parseNota(nota2Field.getText());
+            double nota3 = parseNota(nota3Field.getText());
 
-                    nota1 = Double.parseDouble(nota1Field.getText());
-                    nota2 = Double.parseDouble(nota2Field.getText());
-                    nota3 = Double.parseDouble(nota3Field.getText());
-
-                    Media media = new Media(nota1, nota2, nota3);
-
-                    if (media.calculadorDeMedia() >= 6.0) {
-                        resultadoLabel.setText("Aprovado! Média: " + String.format("%.1f" , media.calculadorDeMedia()));
-                    } else {
-                        resultadoLabel.setText("Reprovado! Média: " + String.format("%.1f" , media.calculadorDeMedia()));
-                    }
-                } else {
-                    resultadoLabel.setText("Não pode nota maior que 10");
-                }
-            } else {
-                resultadoLabel.setText("Sem valor negativo");
+            if (nota1 < 0 || nota2 < 0 || nota3 < 0) {
+                resultadoLabel.setText("Nota não pode ser negativa.");
+                return;
+            } else if (nota1 > 10 || nota2 > 10 || nota3 > 10) {
+                resultadoLabel.setText("Nota não pode ser maior que 10.");
+                return;
             }
+
+            Media media = new Media(nota1, nota2, nota3);
+            double resultado = media.calculadorDeMedia();
+
+            if (resultado >= 6.0) {
+                resultadoLabel.setText("Aprovado! Média: " + String.format("%.1f", resultado));
+            } else {
+                resultadoLabel.setText("Reprovado! Média: " + String.format("%.1f", resultado));
+            }
+
         } catch (NumberFormatException e) {
             resultadoLabel.setText("Por favor, insira todas as notas corretamente.");
         }
     }
+
+    private double parseNota(String notaText) throws NumberFormatException {
+        return Double.parseDouble(notaText.trim());
+    }
+
 }
