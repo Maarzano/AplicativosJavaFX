@@ -20,20 +20,33 @@ public class HelloController {
 
     @FXML
     protected void onVerificarButtonClick() {
+        double nota1 = 0;
+        double nota2 = 0;
+        double nota3 = 0;
         try {
             // Obtemos as notas dos campos de texto
-            double nota1 = Double.parseDouble(nota1Field.getText());
-            double nota2 = Double.parseDouble(nota2Field.getText());
-            double nota3 = Double.parseDouble(nota3Field.getText());
+            if (Double.parseDouble(nota1Field.getText()) >= 0 && Double.parseDouble(nota2Field.getText()) >= 0 && Double.parseDouble(nota1Field.getText()) >= 0) {
+                if (Double.parseDouble(nota1Field.getText()) <= 10 && Double.parseDouble(nota2Field.getText()) <= 10 && Double.parseDouble(nota1Field.getText()) <= 10) {
 
-            // Calculamos a média
-            double media = (nota1 + nota2 + nota3) / 3;
+                    nota1 = Double.parseDouble(nota1Field.getText());
+                    nota2 = Double.parseDouble(nota2Field.getText());
+                    nota3 = Double.parseDouble(nota3Field.getText());
 
-            // Verificamos se o aluno foi aprovado ou reprovado
-            if (media >= 6.0) {
-                resultadoLabel.setText("Aprovado! Média: " + media);
+
+                    // Calculamos a média
+                    double media = (nota1 + nota2 + nota3) / 3;
+
+                    // Verificamos se o aluno foi aprovado ou reprovado
+                    if (media >= 6.0) {
+                        resultadoLabel.setText("Aprovado! Média: " + media);
+                    } else {
+                        resultadoLabel.setText("Reprovado! Média: " + media);
+                    }
+                } else {
+                    resultadoLabel.setText("Não pode nota maior que 10");
+                }
             } else {
-                resultadoLabel.setText("Reprovado! Média: " + media);
+                resultadoLabel.setText("Sem valor negativo");
             }
         } catch (NumberFormatException e) {
             resultadoLabel.setText("Por favor, insira todas as notas corretamente.");
