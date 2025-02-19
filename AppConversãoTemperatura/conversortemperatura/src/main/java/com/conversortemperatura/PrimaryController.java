@@ -6,11 +6,15 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Label;
+import javafx.scene.control.Button;
 
 public class PrimaryController {
 
     @FXML
     private TextField inputField;  // Campo de texto para inserir a temperatura
+
+    @FXML
+    private TextField resultField;  // Campo de texto para exibir o resultado
 
     @FXML
     private ComboBox<String> fromUnit;  // ComboBox para selecionar a unidade de origem
@@ -19,7 +23,10 @@ public class PrimaryController {
     private ComboBox<String> toUnit;  // ComboBox para selecionar a unidade de destino
 
     @FXML
-    private Label resultLabel;  // Label para mostrar o resultado da conversão
+    private Button swapButton;  // Botão para trocar as unidades de origem e destino
+
+    @FXML
+    private Label resultLabel;  // Label para exibir a mensagem de erro ou sucesso
 
     @FXML
     public void initialize() {
@@ -62,10 +69,18 @@ public class PrimaryController {
                 }
             }
 
-            // Exibir o resultado
-            resultLabel.setText("Resultado: " + result);
+            // Exibir o resultado no campo de resultado
+            resultField.setText(String.format("%.2f", result));
         } catch (NumberFormatException e) {
             resultLabel.setText("Por favor, insira um valor numérico válido.");
         }
+    }
+
+    @FXML
+    private void onSwapButtonClick() {
+        // Trocar as unidades de origem e destino
+        String temp = fromUnit.getValue();
+        fromUnit.setValue(toUnit.getValue());
+        toUnit.setValue(temp);
     }
 }
