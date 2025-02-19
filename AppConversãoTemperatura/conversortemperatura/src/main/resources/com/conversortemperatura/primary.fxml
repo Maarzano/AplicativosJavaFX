@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.Button?>
-<?import javafx.geometry.Insets?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.conversortemperatura.PrimaryController">
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.conversortemperatura.PrimaryController">
     <children>
         <TextField fx:id="inputField" promptText="Digite a temperatura" />
 
         <HBox spacing="10">
             <ComboBox fx:id="fromUnit" />
-            <Label text="para" />
+            <Label alignment="CENTER" text="para" textAlignment="JUSTIFY" translateY="8.5" />
             <ComboBox fx:id="toUnit" />
         </HBox>
 
-        <Button text="Converter" onAction="#onConvertButtonClick" />
+        <Button onAction="#onConvertButtonClick" text="Converter" />
 
         <TextField fx:id="resultField" editable="false" promptText="Resultado" />
 
-        <Button fx:id="swapButton" text="Trocar" onAction="#onSwapButtonClick" />
+        <Button fx:id="swapButton" onAction="#onSwapButtonClick" text="Trocar" />
       
     </children>
     <padding>
