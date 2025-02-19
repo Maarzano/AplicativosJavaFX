@@ -1,0 +1,36 @@
+* {
+    -fx-font-family: Arial;
+    -fx-focus-color: transparent;
+}
+
+.root {
+    -fx-background-color: #1e1e2f;
+    -fx-text-fill: #ffffff;
+}
+
+Label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+}
+
+Button {
+    -fx-background-color: #3a3a5c;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #5c5c8a;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+Button:hover {
+    -fx-background-color: #5c5c8a;
+}
+
+TextField {
+    -fx-background-color: #2a2a3f;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #7a7a9f;
+    -fx-border-color: #5c5c8a;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}

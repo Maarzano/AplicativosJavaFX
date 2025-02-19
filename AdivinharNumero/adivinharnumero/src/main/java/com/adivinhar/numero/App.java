@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -14,8 +15,12 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        scene = new Scene(loadFXML("primary"), 340, 330);
+        Image iconImage = new Image(getClass().getResource("/com/adivinhar/numero/imagens/pngtree-guess-who-png-image_3039600.jpg").toExternalForm());
+        stage.getIcons().add(iconImage);
+        stage.setTitle("Jogo: Adivinhe o Número!");
         stage.setScene(scene);
+        stage.getScene().getStylesheets().add(getClass().getResource("/com/adivinhar/numero/styles.css").toExternalForm());
         stage.show();
     }
 
@@ -31,5 +36,4 @@ public class App extends Application {
     public static void main(String[] args) {
         launch();
     }
-
 }
