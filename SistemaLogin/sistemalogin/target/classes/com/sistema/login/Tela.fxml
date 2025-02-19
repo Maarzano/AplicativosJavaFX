@@ -6,7 +6,11 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" maxHeight="300.0" maxWidth="200.0" minHeight="300.0" minWidth="200.0" prefHeight="300.0" prefWidth="200.0" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="LoginController">
+<VBox alignment="CENTER" maxHeight="300.0" maxWidth="200.0" minHeight="300.0" minWidth="200.0" prefHeight="300.0" prefWidth="200.0" spacing="10" 
+    xmlns:fx="http://javafx.com/fxml/1" 
+    xmlns="http://javafx.com/javafx/23.0.1" 
+    fx:controller="com.sistema.login.LoginController">
+    
     <Label text="Usuário:" translateX="-40.0" translateY="20.0" />
     <TextField fx:id="txtUsuario" maxWidth="125.0" minWidth="125.0" prefWidth="125.0" translateX="-5.0" translateY="10.0" />
     
