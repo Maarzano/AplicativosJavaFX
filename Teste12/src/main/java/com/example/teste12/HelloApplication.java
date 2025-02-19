@@ -12,7 +12,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 355, 330);
+        Scene scene = new Scene(fxmlLoader.load(), 389, 330);
         Image icon = new Image(getClass().getResource("/com/example/teste12/Imagens/unnamed.png").toExternalForm());
         stage.getIcons().add(icon);
         stage.setTitle("Verificação de Aprovação");
