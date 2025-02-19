@@ -20,14 +20,12 @@
 
     <Label text="Digite as 3 notas do aluno:"/>
 
-    <!-- Campos de texto para inserir as 3 notas -->
     <TextField fx:id="nota1Field" promptText="Nota 1" />
     <TextField fx:id="nota2Field" promptText="Nota 2" />
     <TextField fx:id="nota3Field" promptText="Nota 3" />
 
-    <!-- Botão para verificar a média e o status -->
     <Button text="Verificar Aprovação" onAction="#onVerificarButtonClick"/>
 
-    <!-- Label que exibirá o resultado -->
+
     <Label fx:id="resultadoLabel"/>
 </VBox>

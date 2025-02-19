@@ -7,16 +7,16 @@ import javafx.scene.control.TextField;
 public class HelloController {
 
     @FXML
-    private TextField nota1Field;  // Campo para a primeira nota
+    private TextField nota1Field;
 
     @FXML
-    private TextField nota2Field;  // Campo para a segunda nota
+    private TextField nota2Field;
 
     @FXML
-    private TextField nota3Field;  // Campo para a terceira nota
+    private TextField nota3Field;
 
     @FXML
-    private Label resultadoLabel;  // Label para mostrar o resultado
+    private Label resultadoLabel;
 
     @FXML
     protected void onVerificarButtonClick() {
@@ -24,7 +24,6 @@ public class HelloController {
         double nota2 = 0;
         double nota3 = 0;
         try {
-            // Obtemos as notas dos campos de texto
             if (Double.parseDouble(nota1Field.getText()) >= 0 && Double.parseDouble(nota2Field.getText()) >= 0 && Double.parseDouble(nota1Field.getText()) >= 0) {
                 if (Double.parseDouble(nota1Field.getText()) <= 10 && Double.parseDouble(nota2Field.getText()) <= 10 && Double.parseDouble(nota1Field.getText()) <= 10) {
 
@@ -33,10 +32,8 @@ public class HelloController {
                     nota3 = Double.parseDouble(nota3Field.getText());
 
 
-                    // Calculamos a média
                     double media = (nota1 + nota2 + nota3) / 3;
 
-                    // Verificamos se o aluno foi aprovado ou reprovado
                     if (media >= 6.0) {
                         resultadoLabel.setText("Aprovado! Média: " + media);
                     } else {
