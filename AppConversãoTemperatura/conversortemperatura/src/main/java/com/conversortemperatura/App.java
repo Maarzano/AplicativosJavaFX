@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -15,6 +16,8 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 350, 280);
+        Image iconImage = new Image(getClass().getResource("/com/conversortemperatura/imagens/png-clipart-round-black-logo-computer-icons-temperature-measurement-temperature-save-miscell.png").toExternalForm());
+        stage.getIcons().add(iconImage);
         scene.getStylesheets().add(getClass().getResource("/com/conversortemperatura/styles.css").toExternalForm());
         stage.setTitle("Conversor de Temperatura");
         stage.setScene(scene);
