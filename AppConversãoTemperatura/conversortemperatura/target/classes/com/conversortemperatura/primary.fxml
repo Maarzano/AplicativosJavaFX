@@ -9,23 +9,18 @@
 
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.conversortemperatura.PrimaryController">
     <children>
-        <!-- Campo para o valor da temperatura -->
         <TextField fx:id="inputField" promptText="Digite a temperatura" />
 
-        <!-- ComboBox para selecionar a unidade de origem -->
         <HBox spacing="10">
             <ComboBox fx:id="fromUnit" />
             <Label text="para" />
             <ComboBox fx:id="toUnit" />
         </HBox>
 
-        <!-- Botão para converter a temperatura -->
         <Button text="Converter" onAction="#onConvertButtonClick" />
 
-        <!-- Caixa de texto para exibir o resultado -->
         <TextField fx:id="resultField" editable="false" promptText="Resultado" />
 
-        <!-- Botão para trocar as unidades de origem e destino -->
         <Button fx:id="swapButton" text="Trocar" onAction="#onSwapButtonClick" />
       
     </children>

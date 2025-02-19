@@ -1,22 +1,19 @@
-/* Definir o fundo geral da aplicação para um tom escuro */
 .root {
-    -fx-background-color: #2c3e50; /* Cor de fundo escuro */
+    -fx-background-color: #2c3e50;
     -fx-font-family: "Arial", sans-serif;
     -fx-font-size: 14px;
     -fx-text-fill: white;
 }
 
-/* Estilização dos TextFields */
 .text-field {
-    -fx-background-color: #34495e; /* Azul escuro */
+    -fx-background-color: #34495e;
     -fx-text-fill: white;
-    -fx-prompt-text-fill: #ffffff; /* Cor de texto do prompt */
-    -fx-border-color: #2980b9; /* Borda azul */
+    -fx-prompt-text-fill: #ffffff;
+    -fx-border-color: #2980b9;
     -fx-border-radius: 5px;
     -fx-padding: 5px;
 }
 
-/* Estilização dos ComboBoxes */
 .combo-box {
     -fx-background-color: #34495e;
     -fx-text-fill: white;
@@ -25,9 +22,8 @@
     -fx-padding: 5px;
 }
 
-/* Estilização dos Botões */
 .button {
-    -fx-background-color: #2980b9; /* Azul claro */
+    -fx-background-color: #2980b9;
     -fx-text-fill: white;
     -fx-border-color: #2980b9;
     -fx-border-radius: 5px;
@@ -36,30 +32,27 @@
 }
 
 .button:hover {
-    -fx-background-color: #14496d; /* Azul mais claro no hover */
+    -fx-background-color: #14496d;
 }
 
-/* Estilização do botão de troca (Swap) */
 #swapButton {
-    -fx-background-color: #8e44ad; /* Cor roxa para o botão de troca */
+    -fx-background-color: #8e44ad;
     -fx-text-fill: white;
     -fx-border-radius: 5px;
 }
 
 #swapButton:hover {
-    -fx-background-color: #7b3c94; /* Roxo mais claro no hover */
+    -fx-background-color: #7b3c94;
 }
 
-/* Ajuste da label para resultados e mensagens de erro */
 .label {
-    -fx-text-fill: #ecf0f1; /* Cor clara */
+    -fx-text-fill: #ecf0f1;
 }
 
 .resultLabel {
-    -fx-text-fill: #e74c3c; /* Vermelho para mensagens de erro */
+    -fx-text-fill: #e74c3c;
 }
 
-/* Definir o espaçamento e o alinhamento dos containers */
 .vbox {
     -fx-alignment: center;
     -fx-spacing: 20px;
