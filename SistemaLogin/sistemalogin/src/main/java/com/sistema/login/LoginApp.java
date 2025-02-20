@@ -9,11 +9,12 @@ import javafx.stage.Stage;
 public class LoginApp extends Application {
 
     @Override
-    public void start(@SuppressWarnings("exports") Stage primaryStage) throws Exception {
-        // Carrega o arquivo FXML
-        Parent root = FXMLLoader.load(getClass().getResource("Tela.fxml"));
-        
-        Scene scene = new Scene(root, 300, 200);
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("/com/sistema/login/Tela.fxml"));
+
+        Scene scene = new Scene(root, 300, 300);
+        scene.getStylesheets().add(getClass().getResource("/com/sistema/login/styles.css").toExternalForm());
+
         primaryStage.setTitle("Tela de Login");
         primaryStage.setScene(scene);
         primaryStage.show();
