@@ -38,7 +38,7 @@ public class LoginController {
             lblMensagem.setText("Login bem-sucedido!");
             lblMensagem.setStyle("-fx-text-fill: green;");
         } else {
-            lblMensagem.setText("Usuário ou senha incorretos!");
+            lblMensagem.setText("Usuário e/ou senha incorretos!");
             lblMensagem.setStyle("-fx-text-fill: red;");
         }
     }
