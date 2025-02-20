@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class LoginApp extends Application {
@@ -11,8 +12,9 @@ public class LoginApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/com/sistema/login/Tela.fxml"));
-
-        Scene scene = new Scene(root, 300, 300);
+        Image iconImage = new Image(getClass().getResource("/com/sistema/login/Imagens/17905775.gif").toExternalForm());
+        primaryStage.getIcons().add(iconImage);
+        Scene scene = new Scene(root, 260, 245);
         scene.getStylesheets().add(getClass().getResource("/com/sistema/login/styles.css").toExternalForm());
 
         primaryStage.setTitle("Tela de Login");

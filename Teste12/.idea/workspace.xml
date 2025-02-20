@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d80b5df8-a01d-44f5-a34e-7e3a26d8c5fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/teste12/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/teste12/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/teste12/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/teste12/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdivinharNumero/adivinharnumero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdivinharNumero/adivinharnumero/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppConversãoTemperatura/conversortemperatura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppConversãoTemperatura/conversortemperatura/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JogoForca/JogoForca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JogoForca/JogoForca/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SistemaLogin/sistemalogin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SistemaLogin/sistemalogin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SistemaLogin/sistemalogin/target/classes/com/sistema/login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SistemaLogin/sistemalogin/target/classes/com/sistema/login/LoginController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +19,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2tHSQtWiDWaUdBBGHuNJ0Bpuhrz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,7 +31,7 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "JogoForca",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Arthuzinho e Arthuzão/Repo/Maarzano/AplicativosJavaFX/SistemaLogin/sistemalogin",
     "settings.editor.selected.configurable": "preferences.keymap"

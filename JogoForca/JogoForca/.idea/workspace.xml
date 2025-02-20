@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0af6083-e981-438b-81ec-fad0bf65dbc1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogoforca/jogoforca/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jogoforca/jogoforca/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogoforca/jogoforca/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jogoforca/jogoforca/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AdivinharNumero/adivinharnumero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AdivinharNumero/adivinharnumero/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AppConversãoTemperatura/conversortemperatura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AppConversãoTemperatura/conversortemperatura/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +23,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2tHMCwYjOMhoIY9z0CRJARFDTRH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,9 +36,9 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "JogoForca",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Arthuzinho e Arthuzão/Repo/Maarzano/AplicativosJavaFX/AdivinharNumero",
+    "last_opened_file_path": "C:/Arthuzinho e Arthuzão/Repo/Maarzano/AplicativosJavaFX/SistemaLogin/sistemalogin",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
