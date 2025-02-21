@@ -4,17 +4,31 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
+<VBox alignment="CENTER" maxHeight="300.0" maxWidth="200.0" minHeight="300.0" minWidth="200.0" prefHeight="300.0" prefWidth="200.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sistema.login.LoginController">
+
+<<<<<<< HEAD
 <VBox alignment="CENTER" maxHeight="300.0" maxWidth="200.0" minHeight="300.0" minWidth="200.0" prefHeight="300.0" prefWidth="200.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+=======
+>>>>>>> 887ffb5f783e1b6986c607ce1965b00a0b3943d9
     <Label text="Usuário:" translateX="-40.0" translateY="20.0" />
     <TextField fx:id="txtUsuario" maxWidth="125.0" minWidth="125.0" prefWidth="125.0" translateX="-5.0" translateY="10.0" />
-    
+
     <Label text="Senha:" translateX="-45.0" translateY="10.0" />
     <PasswordField fx:id="txtSenha" maxWidth="125.0" minWidth="125.0" prefWidth="125.0" translateX="-5.0" />
-    
-    <Button contentDisplay="RIGHT" mnemonicParsing="false" onAction="#handleLogin" prefWidth="125.0" text="Entrar" translateX="-5.0" />
-    <Button mnemonicParsing="false" prefWidth="125.0" text="Cadastrar" translateX="-5.0" />
-    
+
+    <Button alignment="CENTER" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#handleLogin" text="Entrar" translateX="-5.0">
+      <font>
+         <Font size="10.0" />
+      </font></Button>
+    <Button alignment="CENTER" mnemonicParsing="false" onAction="#handleCadastro" text="Cadastrar" translateX="-5.0">
+      <font>
+         <Font size="10.0" />
+      </font></Button>
+
     <Label fx:id="lblMensagem" />
+   <AnchorPane prefHeight="200.0" prefWidth="200.0" />
 </VBox>

@@ -1,0 +1,7 @@
+.root {
+    -fx-background-color: #2e3b4e;
+    -fx-font-family: Arial, sans-serif;
+    -fx-padding: 20px;
+    -fx-text-fill: white;
+    -fx-background-insets: 0;
+}

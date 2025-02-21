@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.canvas.Canvas?>
+
+<?import java.net.URL?>
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jogoforca.jogoforca.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+
+  <stylesheets>
+    <URL value="@styles.css" />
+  </stylesheets>
+
+  <Canvas fx:id="forcaCanvas" width="250.0" height="250.0" />
+
+  <Label fx:id="wordLabel" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white" />
+
+  <Label fx:id="attemptsLabel" style="-fx-text-fill: red; -fx-font-size: 14px;" />
+
+  <TextField fx:id="guessInput" promptText="Digite uma letra" maxWidth="100" />
+
+  <Button fx:id="guessButton" text="Chutar Letra" onAction="#onGuessButtonClick" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-size: 14px;" />
+</VBox>
