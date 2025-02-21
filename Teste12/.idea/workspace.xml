@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d80b5df8-a01d-44f5-a34e-7e3a26d8c5fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../AdivinharNumero/adivinharnumero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdivinharNumero/adivinharnumero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppConversãoTemperatura/conversortemperatura/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppConversãoTemperatura/conversortemperatura/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JogoForca/JogoForca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JogoForca/JogoForca/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SistemaLogin/sistemalogin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SistemaLogin/sistemalogin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SistemaLogin/sistemalogin/target/classes/com/sistema/login/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SistemaLogin/sistemalogin/target/classes/com/sistema/login/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JogoForca/JogoForca/src/main/java/com/jogoforca/jogoforca/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JogoForca/JogoForca/src/main/java/com/jogoforca/jogoforca/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JogoForca/JogoForca/src/main/java/com/jogoforca/jogoforca/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JogoForca/JogoForca/src/main/java/com/jogoforca/jogoforca/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JogoForca/JogoForca/src/main/resources/com/jogoforca/jogoforca/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JogoForca/JogoForca/src/main/resources/com/jogoforca/jogoforca/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +30,9 @@
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "JogoDaForca",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Arthuzinho e Arthuzão/Repo/Maarzano/AplicativosJavaFX/SistemaLogin/sistemalogin",
+    "last_opened_file_path": "C:/Arthuzinho e Arthuzão/Repo/Maarzano/AplicativosJavaFX/JogoForca/JogoForca",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
