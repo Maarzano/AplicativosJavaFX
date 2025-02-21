@@ -15,4 +15,4 @@ Este projeto tem como objetivo a construção de interfaces gráficas utilizando
 1. Certifique-se de ter o **JDK** e o **JavaFX** instalados.  
 2. Clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Maarzano/AplicativosJavaFX.git
