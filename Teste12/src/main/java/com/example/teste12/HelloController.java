@@ -49,10 +49,12 @@ public class HelloController {
 
         if (numNotas > 0) {
             double media = somaNotas / numNotas;
-            if (media >= 6.0) {
+            if (media >= 7.0) {
                 resultadoLabel.setText("Aprovado! Média: " + String.format("%.1f", media));
-            } else {
+            } else if (media < 6.0){
                 resultadoLabel.setText("Reprovado! Média: " + String.format("%.1f", media));
+            } else {
+                resultadoLabel.setText("Recuperação! Média: " + String.format("%.1f", media));
             }
         }
     }

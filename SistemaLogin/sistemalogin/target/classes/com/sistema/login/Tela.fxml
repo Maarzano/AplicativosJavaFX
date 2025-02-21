@@ -10,6 +10,10 @@
 
 <VBox alignment="CENTER" maxHeight="300.0" maxWidth="200.0" minHeight="300.0" minWidth="200.0" prefHeight="300.0" prefWidth="200.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sistema.login.LoginController">
 
+<<<<<<< HEAD
+<VBox alignment="CENTER" maxHeight="300.0" maxWidth="200.0" minHeight="300.0" minWidth="200.0" prefHeight="300.0" prefWidth="200.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+=======
+>>>>>>> 887ffb5f783e1b6986c607ce1965b00a0b3943d9
     <Label text="Usuário:" translateX="-40.0" translateY="20.0" />
     <TextField fx:id="txtUsuario" maxWidth="125.0" minWidth="125.0" prefWidth="125.0" translateX="-5.0" translateY="10.0" />
 
