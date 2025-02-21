@@ -21,3 +21,4 @@ Este programa recebe as notas de um aluno e determina seu status acadêmico com 
 Facilitar a análise do desempenho acadêmico dos alunos e ajudar no acompanhamento de suas notas.  
 
 📚 **Bons estudos e sucesso!** 🚀  
+
