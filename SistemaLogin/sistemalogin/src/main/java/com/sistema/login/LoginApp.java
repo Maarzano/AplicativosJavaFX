@@ -11,7 +11,7 @@ public class LoginApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/com/sistema/login/Tela.fxml"));
+        Parent root = FXMLLoader.load(LoginApp.class.getResource("/com/sistema/login/Tela.fxml"));
         Image iconImage = new Image(getClass().getResource("/com/sistema/login/Imagens/17905775.gif").toExternalForm());
         primaryStage.getIcons().add(iconImage);
         Scene scene = new Scene(root, 260, 245);
