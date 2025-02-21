@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0af6083-e981-438b-81ec-fad0bf65dbc1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogoforca/jogoforca/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jogoforca/jogoforca/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jogoforca/jogoforca/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jogoforca/jogoforca/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jogoforca/jogoforca/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jogoforca/jogoforca/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jogoforca/jogoforca/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jogoforca/jogoforca/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jogoforca/jogoforca/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jogoforca/jogoforca/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jogoforca/jogoforca/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Teste12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Teste12/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d0af6083-e981-438b-81ec-fad0bf65dbc1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
