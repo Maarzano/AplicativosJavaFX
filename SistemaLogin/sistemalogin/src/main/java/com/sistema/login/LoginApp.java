@@ -10,7 +10,7 @@ public class LoginApp extends Application {
 
     @Override
     public void start(@SuppressWarnings("exports") Stage primaryStage) throws Exception {
-        // Carrega o arquivo FXML
+       
         Parent root = FXMLLoader.load(getClass().getResource("Tela.fxml"));
         
         Scene scene = new Scene(root, 300, 200);
