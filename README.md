@@ -47,7 +47,6 @@ Este programa desafia o usuário a adivinhar um número secreto entre **1 e 100*
 ## Como Executar  
 
 1. Certifique-se de ter o **JDK** e o **JavaFX** instalados.  
-2. Clone este repositório:  
-
-   ```bash
-   git clone https://github.com/Maarzano/AplicativosJavaFX.git
+2. Acesse a Release mais recente:
+   [Clique aqui para acessar a Release no GitHub](https://github.com/Maarzano/AplicativosJavaFX/releases/tag/v1.0.0)
+3. Faça o Download dos .exe e abra.
